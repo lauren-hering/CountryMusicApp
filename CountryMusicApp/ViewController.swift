@@ -10,11 +10,37 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var outputLabel:
+        UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        outputLabel.isHidden = true
     }
-
-
+    @IBAction func phonePressed(
+        sender: UIButton) {
+        outputLabel.isHidden = false
+        outputLabel.text = "I'll Be The One ⚓️ "
+    }
+    @IBAction func moonPressed(
+        sender:UIButton) {
+        outputLabel.isHidden = false
+        outputLabel.text = "Maybe We Will ⚓️ "
+    }
+    @IBAction func coffeePressed(
+        sender:UIButton) {
+        outputLabel.isHidden = false
+        outputLabel.text = "Hello Beautiful ⚓️ "
+    }
+    @IBAction func francePressed(
+        sender:UIButton) {
+        outputLabel.isHidden = false
+        outputLabel.text = "Where'd You Go ⚓️ "
+    }
+    @IBAction func rosePressed(
+        sender:UIButton) {
+        outputLabel.isHidden = false
+        outputLabel.text = "Comeback ⚓️ "
+    }
 }
 
