@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B73B17D247DE67D00AB2D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73B17C247DE67D00AB2D73 /* AppDelegate.swift */; };
+		1B73B17F247DE67D00AB2D73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73B17E247DE67D00AB2D73 /* SceneDelegate.swift */; };
+		1B73B181247DE67D00AB2D73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73B180247DE67D00AB2D73 /* ViewController.swift */; };
+		1B73B184247DE67D00AB2D73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B73B182247DE67D00AB2D73 /* Main.storyboard */; };
+		1B73B187247DE67D00AB2D73 /* CountryMusicApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B73B185247DE67D00AB2D73 /* CountryMusicApp.xcdatamodeld */; };
+		1B73B189247DE68200AB2D73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B73B188247DE68200AB2D73 /* Assets.xcassets */; };
+		1B73B18C247DE68200AB2D73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B73B18A247DE68200AB2D73 /* LaunchScreen.storyboard */; };
+		1B73B197247DE68200AB2D73 /* CountryMusicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73B196247DE68200AB2D73 /* CountryMusicAppTests.swift */; };
+		1B73B1A2247DE68200AB2D73 /* CountryMusicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73B1A1247DE68200AB2D73 /* CountryMusicAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B73B193247DE68200AB2D73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B73B171247DE67C00AB2D73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B73B178247DE67D00AB2D73;
+			remoteInfo = CountryMusicApp;
+		};
+		1B73B19E247DE68200AB2D73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B73B171247DE67C00AB2D73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B73B178247DE67D00AB2D73;
+			remoteInfo = CountryMusicApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B73B179247DE67D00AB2D73 /* CountryMusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryMusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B73B17C247DE67D00AB2D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B73B17E247DE67D00AB2D73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1B73B180247DE67D00AB2D73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B73B183247DE67D00AB2D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B73B186247DE67D00AB2D73 /* CountryMusicApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CountryMusicApp.xcdatamodel; sourceTree = "<group>"; };
+		1B73B188247DE68200AB2D73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B73B18B247DE68200AB2D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B73B18D247DE68200AB2D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B73B192247DE68200AB2D73 /* CountryMusicAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountryMusicAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B73B196247DE68200AB2D73 /* CountryMusicAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryMusicAppTests.swift; sourceTree = "<group>"; };
+		1B73B198247DE68200AB2D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B73B19D247DE68200AB2D73 /* CountryMusicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountryMusicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B73B1A1247DE68200AB2D73 /* CountryMusicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryMusicAppUITests.swift; sourceTree = "<group>"; };
+		1B73B1A3247DE68200AB2D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B73B176247DE67D00AB2D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B73B18F247DE68200AB2D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B73B19A247DE68200AB2D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B73B170247DE67C00AB2D73 = {
+			isa = PBXGroup;
+			children = (
+				1B73B17B247DE67D00AB2D73 /* CountryMusicApp */,
+				1B73B195247DE68200AB2D73 /* CountryMusicAppTests */,
+				1B73B1A0247DE68200AB2D73 /* CountryMusicAppUITests */,
+				1B73B17A247DE67D00AB2D73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B73B17A247DE67D00AB2D73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B73B179247DE67D00AB2D73 /* CountryMusicApp.app */,
+				1B73B192247DE68200AB2D73 /* CountryMusicAppTests.xctest */,
+				1B73B19D247DE68200AB2D73 /* CountryMusicAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B73B17B247DE67D00AB2D73 /* CountryMusicApp */ = {
+			isa = PBXGroup;
+			children = (
+				1B73B17C247DE67D00AB2D73 /* AppDelegate.swift */,
+				1B73B17E247DE67D00AB2D73 /* SceneDelegate.swift */,
+				1B73B180247DE67D00AB2D73 /* ViewController.swift */,
+				1B73B182247DE67D00AB2D73 /* Main.storyboard */,
+				1B73B188247DE68200AB2D73 /* Assets.xcassets */,
+				1B73B18A247DE68200AB2D73 /* LaunchScreen.storyboard */,
+				1B73B18D247DE68200AB2D73 /* Info.plist */,
+				1B73B185247DE67D00AB2D73 /* CountryMusicApp.xcdatamodeld */,
+			);
+			path = CountryMusicApp;
+			sourceTree = "<group>";
+		};
+		1B73B195247DE68200AB2D73 /* CountryMusicAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B73B196247DE68200AB2D73 /* CountryMusicAppTests.swift */,
+				1B73B198247DE68200AB2D73 /* Info.plist */,
+			);
+			path = CountryMusicAppTests;
+			sourceTree = "<group>";
+		};
+		1B73B1A0247DE68200AB2D73 /* CountryMusicAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B73B1A1247DE68200AB2D73 /* CountryMusicAppUITests.swift */,
+				1B73B1A3247DE68200AB2D73 /* Info.plist */,
+			);
+			path = CountryMusicAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B73B178247DE67D00AB2D73 /* CountryMusicApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B73B1A6247DE68200AB2D73 /* Build configuration list for PBXNativeTarget "CountryMusicApp" */;
+			buildPhases = (
+				1B73B175247DE67D00AB2D73 /* Sources */,
+				1B73B176247DE67D00AB2D73 /* Frameworks */,
+				1B73B177247DE67D00AB2D73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountryMusicApp;
+			productName = CountryMusicApp;
+			productReference = 1B73B179247DE67D00AB2D73 /* CountryMusicApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B73B191247DE68200AB2D73 /* CountryMusicAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B73B1A9247DE68200AB2D73 /* Build configuration list for PBXNativeTarget "CountryMusicAppTests" */;
+			buildPhases = (
+				1B73B18E247DE68200AB2D73 /* Sources */,
+				1B73B18F247DE68200AB2D73 /* Frameworks */,
+				1B73B190247DE68200AB2D73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B73B194247DE68200AB2D73 /* PBXTargetDependency */,
+			);
+			name = CountryMusicAppTests;
+			productName = CountryMusicAppTests;
+			productReference = 1B73B192247DE68200AB2D73 /* CountryMusicAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B73B19C247DE68200AB2D73 /* CountryMusicAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B73B1AC247DE68200AB2D73 /* Build configuration list for PBXNativeTarget "CountryMusicAppUITests" */;
+			buildPhases = (
+				1B73B199247DE68200AB2D73 /* Sources */,
+				1B73B19A247DE68200AB2D73 /* Frameworks */,
+				1B73B19B247DE68200AB2D73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B73B19F247DE68200AB2D73 /* PBXTargetDependency */,
+			);
+			name = CountryMusicAppUITests;
+			productName = CountryMusicAppUITests;
+			productReference = 1B73B19D247DE68200AB2D73 /* CountryMusicAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B73B171247DE67C00AB2D73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Lauren Hering";
+				TargetAttributes = {
+					1B73B178247DE67D00AB2D73 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					1B73B191247DE68200AB2D73 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1B73B178247DE67D00AB2D73;
+					};
+					1B73B19C247DE68200AB2D73 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1B73B178247DE67D00AB2D73;
+					};
+				};
+			};
+			buildConfigurationList = 1B73B174247DE67D00AB2D73 /* Build configuration list for PBXProject "CountryMusicApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B73B170247DE67C00AB2D73;
+			productRefGroup = 1B73B17A247DE67D00AB2D73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B73B178247DE67D00AB2D73 /* CountryMusicApp */,
+				1B73B191247DE68200AB2D73 /* CountryMusicAppTests */,
+				1B73B19C247DE68200AB2D73 /* CountryMusicAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B73B177247DE67D00AB2D73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B73B18C247DE68200AB2D73 /* LaunchScreen.storyboard in Resources */,
+				1B73B189247DE68200AB2D73 /* Assets.xcassets in Resources */,
+				1B73B184247DE67D00AB2D73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B73B190247DE68200AB2D73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B73B19B247DE68200AB2D73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B73B175247DE67D00AB2D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B73B181247DE67D00AB2D73 /* ViewController.swift in Sources */,
+				1B73B17D247DE67D00AB2D73 /* AppDelegate.swift in Sources */,
+				1B73B187247DE67D00AB2D73 /* CountryMusicApp.xcdatamodeld in Sources */,
+				1B73B17F247DE67D00AB2D73 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B73B18E247DE68200AB2D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B73B197247DE68200AB2D73 /* CountryMusicAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B73B199247DE68200AB2D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B73B1A2247DE68200AB2D73 /* CountryMusicAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B73B194247DE68200AB2D73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B73B178247DE67D00AB2D73 /* CountryMusicApp */;
+			targetProxy = 1B73B193247DE68200AB2D73 /* PBXContainerItemProxy */;
+		};
+		1B73B19F247DE68200AB2D73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B73B178247DE67D00AB2D73 /* CountryMusicApp */;
+			targetProxy = 1B73B19E247DE68200AB2D73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B73B182247DE67D00AB2D73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B73B183247DE67D00AB2D73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B73B18A247DE68200AB2D73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B73B18B247DE68200AB2D73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B73B1A4247DE68200AB2D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B73B1A5247DE68200AB2D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B73B1A7247DE68200AB2D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CountryMusicApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.CountryMusicApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B73B1A8247DE68200AB2D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CountryMusicApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.CountryMusicApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B73B1AA247DE68200AB2D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CountryMusicAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.CountryMusicAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountryMusicApp.app/CountryMusicApp";
+			};
+			name = Debug;
+		};
+		1B73B1AB247DE68200AB2D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CountryMusicAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.CountryMusicAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountryMusicApp.app/CountryMusicApp";
+			};
+			name = Release;
+		};
+		1B73B1AD247DE68200AB2D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CountryMusicAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.CountryMusicAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CountryMusicApp;
+			};
+			name = Debug;
+		};
+		1B73B1AE247DE68200AB2D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CountryMusicAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.CountryMusicAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CountryMusicApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B73B174247DE67D00AB2D73 /* Build configuration list for PBXProject "CountryMusicApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B73B1A4247DE68200AB2D73 /* Debug */,
+				1B73B1A5247DE68200AB2D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B73B1A6247DE68200AB2D73 /* Build configuration list for PBXNativeTarget "CountryMusicApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B73B1A7247DE68200AB2D73 /* Debug */,
+				1B73B1A8247DE68200AB2D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B73B1A9247DE68200AB2D73 /* Build configuration list for PBXNativeTarget "CountryMusicAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B73B1AA247DE68200AB2D73 /* Debug */,
+				1B73B1AB247DE68200AB2D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B73B1AC247DE68200AB2D73 /* Build configuration list for PBXNativeTarget "CountryMusicAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B73B1AD247DE68200AB2D73 /* Debug */,
+				1B73B1AE247DE68200AB2D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B73B185247DE67D00AB2D73 /* CountryMusicApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B73B186247DE67D00AB2D73 /* CountryMusicApp.xcdatamodel */,
+			);
+			currentVersion = 1B73B186247DE67D00AB2D73 /* CountryMusicApp.xcdatamodel */;
+			path = CountryMusicApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B73B171247DE67C00AB2D73 /* Project object */;
+}
