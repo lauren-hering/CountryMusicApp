@@ -16,9 +16,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wb4-4T-eNx">
-                                <rect key="frame" x="90" y="201" width="70" height="90"/>
+                                <rect key="frame" x="90" y="201" width="71" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="66"/>
                                 <state key="normal" title="📞"/>
                                 <connections>
                                     <action selector="phonePressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kLE-vC-qLQ"/>
